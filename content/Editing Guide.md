@@ -11,6 +11,8 @@ share: "true"
 5. Install obsidian community plugin 'Github Publisher'.
 6. Set up your access token and edit the markdown files.
 7. Pushing automatically build and deploy edited version.
+
+For 'Github Publisher' Settings, set File Path to 'Obsidian Path' so that file structure is reflected to the page.
 ## Setup to preview
 ---
 1. Install [Node.js](https://nodejs.org/en)
