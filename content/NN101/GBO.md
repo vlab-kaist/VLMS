@@ -24,10 +24,12 @@ $$
 f'(x)=2ax+b=0
 $$
 
-
 <script type="text/tikz">
-  \begin{tikzpicture}
-    \draw (0,0) circle (1in);
+  \begin{tikzpicture}[domain=-2:2, scale=1.4]
+  \draw[very thin,color=gray] (-2,0) grid (2,3.9);
+  \draw[->, color=gray] (-2.0,0) -- (2.0,0) node[right] {\large $x$};
+  \draw[->, color=gray] (0,0) -- (0,4.2) node[above] {\large $f(x)$};
+  \draw[color=red] plot (\x,\x*\x) node[right] {\large $f(x) =x ^ 2$};;
   \end{tikzpicture}
 </script>
 

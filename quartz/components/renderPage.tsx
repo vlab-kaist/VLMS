@@ -29,7 +29,7 @@ export function pageResources(
   return {
     css: [
       joinSegments(baseDir, "index.css"),
-      "http://tikzjax.com/v1/fonts.css",
+      "https://tikzjax.com/v1/fonts.css",
       ...staticResources.css
     ],
     js: [
@@ -52,7 +52,7 @@ export function pageResources(
         contentType: "external",
       },
       {
-        src: "http://tikzjax.com/v1/tikzjax.js",
+        src: "https://tikzjax.com/v1/tikzjax.js",
         loadTime: "beforeDOMReady",
         contentType: "external"
       }
