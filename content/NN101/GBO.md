@@ -2,11 +2,6 @@
 share: "true"
 title: Gradient Based Optimization
 ---
-<style>
-!p img {
-text-align:center center;
-}
-</style>
 [Link](https://www.youtube.com/watch?v=atXrbIY6iyQ) for the video of Gradient Based Optimization.
 
 ## Introduction
@@ -36,7 +31,7 @@ However, we want to find parameter values that minimizes the *complex* function,
 ![[GBO-slope.png|200]]
 <br/>
 
-Assume that global minimum is a only minimum, and $x'$ is a value that makes $f(x)$ minimum.
+Assume that global minimum is a only local minimum, and $x'$ is a value that makes $f(x)$ minimum.
 Then, slope of the function $f(x)$ indicates where minimum exists.
 - If slope $f'(x_0)$ is positive, it means $x' < x_0$.
 - If slope $f'(x_0)$ is positive, it means $x_0 < x'$.
@@ -52,7 +47,12 @@ $$
 x_{n+1} = x_n - \alpha f'(x_n)
 $$
 ### Problem: Local minimum
+We assumed that global minimum is a only local minimum. However, general functions can have local minimum, which is not a global minimum.
 
+> [!Definition]
+> **Local minimum** is a smallest value in the given range.
+
+With method we build in [[GBO#Problem To steep slope|previous chapter]], sequence can easily trapped into the local minimum.
 
 ---
 [^1]: https://en.wikipedia.org/wiki/Mathematical_optimization
