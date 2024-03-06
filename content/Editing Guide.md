@@ -13,9 +13,9 @@ share: "true"
 7. Pushing automatically build and deploy edited version.
 
    >[!Warning]
-   > You should pull repository before you edit. I recommend you to install 'git', obsidian plugin.
+   > - You should pull repository before you edit. I recommend you to install 'git', obsidian plugin.
+   > - For 'Github Publisher' Settings, set File Path to 'Obsidian Path' so that file structure is reflected to the page.
 
-For 'Github Publisher' Settings, set File Path to 'Obsidian Path' so that file structure is reflected to the page.
 ## Setup to preview
 ---
 1. Install [Node.js](https://nodejs.org/en)
