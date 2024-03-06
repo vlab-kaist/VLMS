@@ -16,10 +16,11 @@ Optimization is selecting the best element with some criterion. Optimization pro
 ### Mathematical Optimization
 This is just finding $x$ that maximizes or minimizes some function $f(x)$. It is easy for some simple functions, i.e. quadratic functions.
 $$
-f(x)= ax^2 + bx+c
+f(x)= ax^2 + bx+c \quad (a>0)
 $$
 
-
+To find $x$ that minimizes function $f(x)$, we simply differentiate $f(x)$.
+$f'(x)=2ax+b=0$.
 
 ---
 [^1] : https://en.wikipedia.org/wiki/Mathematical_optimization
