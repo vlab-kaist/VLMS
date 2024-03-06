@@ -12,12 +12,18 @@ share: "true"
 6. Set up your access token and edit the markdown files.
 7. Pushing automatically build and deploy edited version.
 
-For 'Github Publisher' Settings, set File Path to 'Obsidian Path' so that file structure is reflected to the page.
+<br/>
+
+   >[!Warning]
+   > - You should pull repository before you edit. I recommend you to install 'git', obsidian plugin.
+   > - For 'Github Publisher' Settings, set File Path to 'Obsidian Path' so that file structure is reflected to the page.
+
 ## Setup to preview
 ---
 1. Install [Node.js](https://nodejs.org/en)
 2. Run 'npm ci' to install dependencies.
 3. Run following command to preview page at your local machine.
+
 ```bash
 npx quartz build --serve
 ```

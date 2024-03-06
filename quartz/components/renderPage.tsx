@@ -27,7 +27,11 @@ export function pageResources(
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
   return {
-    css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
+    css: [
+      joinSegments(baseDir, "index.css"),
+      "http://tikzjax.com/v1/fonts.css",
+      ...staticResources.css
+    ],
     js: [
       {
         src: joinSegments(baseDir, "prescript.js"),
@@ -47,6 +51,11 @@ export function pageResources(
         moduleType: "module",
         contentType: "external",
       },
+      {
+        src: "http://tikzjax.com/v1/tikzjax.js",
+        loadTime: "beforeDOMReady",
+        contentType: "external"
+      }
     ],
   }
 }
