@@ -12,6 +12,7 @@ share: "true"
 6. Set up your access token and edit the markdown files.
 7. Pushing automatically build and deploy edited version.
 
+
    >[!Warning]
    > - You should pull repository before you edit. I recommend you to install 'git', obsidian plugin.
    > - For 'Github Publisher' Settings, set File Path to 'Obsidian Path' so that file structure is reflected to the page.
