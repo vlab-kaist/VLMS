@@ -9,4 +9,4 @@ This page is maintained by the club Vlab
 
 ### How to edit this page?
 This page is wiki-style document, so every Vlab member can edit it.
-For further information, see [[Editing Guide]].
+For further information, see [[Editing Guide|Editing Guide]].
