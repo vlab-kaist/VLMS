@@ -20,7 +20,7 @@ f(x)= ax^2 + bx+c \quad (a>0)
 $$
 
 To find $x$ that minimizes function $f(x)$, we simply differentiate $f(x)$.
-$f'(x)=2ax+b=0$.
+$$f'(x)=2ax+b=0$$
 
 ---
-[^1] : https://en.wikipedia.org/wiki/Mathematical_optimization
+[^1]: https://en.wikipedia.org/wiki/Mathematical_optimization
