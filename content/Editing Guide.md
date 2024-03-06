@@ -12,10 +12,7 @@ share: "true"
 6. Set up your access token and edit the markdown files.
 7. Pushing automatically build and deploy edited version.
 
-<<<<<<< HEAD
 <br/>
-=======
->>>>>>> be63c945a0ba3937e03052f411df037a762d745b
 
    >[!Warning]
    > - You should pull repository before you edit. I recommend you to install 'git', obsidian plugin.
