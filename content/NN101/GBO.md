@@ -53,6 +53,9 @@ We assumed that global minimum is a only local minimum. However, general functio
 > **Local minimum** is a smallest value in the given range.
 
 With method we build in [[GBO#Problem To steep slope|previous chapter]], sequence can easily trapped into the local minimum.
+#### Another Observation
+![[content/img/GBO-physics.png|250]]
+In this example, ball will go to global minimum due to inertia. Therefore, we can apply inertia to our formula.
 
 ---
 [^1]: https://en.wikipedia.org/wiki/Mathematical_optimization
