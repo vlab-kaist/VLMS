@@ -3,6 +3,7 @@ Before the start, everything we learn in a school in general is basically about 
 
 Defining the unknown problem into the known one, it is the essence of **learning** and also the **research**. The famous philosopher Wittgenstein once said,
 
+> [!quote]
 > *"whereof one cannot speak, thereof we one must be silent"*
 > 								- Ludwig Wittgenstein
 
