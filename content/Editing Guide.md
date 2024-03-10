@@ -16,7 +16,7 @@ share: "true"
 <br/>
 
    >[!Warning]
-   > - You should pull repository before you edit.
+   > - You should pull repository before you edit. Settings of plugin 'Git' (**Pull updates on startup**) will be useful.
    > - 'Github Publisher' plugin can make error when collaborating, avoid using it.
 
 ## Setup to preview
