@@ -3,7 +3,6 @@ share: "true"
 title: Gradient Based Optimization
 ---
 [Link](https://www.youtube.com/watch?v=atXrbIY6iyQ) for the video of Gradient Based Optimization.
-
 ## Introduction
 #### What is optimization?
 Optimization is selecting the best element with some criterion. Optimization problem is maximizing or minimizing functions by choosing inputs.[^1]
@@ -28,7 +27,7 @@ However, we want to find parameter values that minimizes the *complex* function,
 
 ## Gradient Based Optimization
 ### Observations
-![[GBO-slope.png|200]]
+![[GBO-slope.png|center|200]]
 <br/>
 
 Assume that global minimum is a only local minimum, and $x'$ is a value that makes $f(x)$ minimum.
