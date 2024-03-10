@@ -27,7 +27,7 @@ Despite the fact that this procedure will give the most logical solution(s) of t
 
 So, In this reason, we usually use optimisation techniques to solve the problem which can be iteratively updated by the massive amounts of computation which can be run on fastest consumer GPU which can do 8 x $10^{12}$ floating points operations in a single second.
 
-In this setting we can find **approximated solutions**, and in most of the cases, it works *pretty* well. From the weather forecast to Large Language Models such as chatGPT, which are hard to find perfect analytical solutions, 
+In this setting we can find **approximated solutions**, and in most of the cases, it works *pretty* well. From the weather forecast to Large Language Models such as chatGPT, which are hard to find perfect analytical solutions.
 
 This long and wordy introduction is for introducing what we learn in this course, which are:
 
