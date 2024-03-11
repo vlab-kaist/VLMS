@@ -59,6 +59,12 @@ p > img {
   margin: 0 auto;
 }
 
+code > svg {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+
 strong {
   font-weight: $semiBoldWeight;
 }
@@ -364,7 +370,7 @@ pre {
     counter-increment: line 0;
     display: grid;
     padding: 0.5rem 0;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);

@@ -11,10 +11,12 @@ But the real problem is that we cannot **define** nor **represent** the idea in 
 
 However, Mathematics, it only exists in a form of logic. Everything is done in a systematic rules which are expanded from a few axioms, which might be inferred from our own common sense(~~in most of case it is not though~~). By this reason, Mathematics can define and represent the idea or problem which can be regarded as same even if they speak different languages in a domain that mathematics allows.
 
-
-![[realworld_problem.png|500]] 
-
-
+```mermaid
+flowchart TD
+  A[The real world problem] -->|Mathematical Modeling| B[Mathematical problem]
+  B -->|Try hard to solve something| C[Solution]
+  C ---->|applying the solution to real world| A
+```
 (Ref from: [Linear Programming, lecture from Prof. Wen Shen](https://www.youtube.com/watch?v=FdKgeeb4q3w&list=PLbxFfU5GKZz1Tm_9RR5M_uvdOXpJJ8LC3))
 
 Therefore, it is important to transform the real world problem into the mathematical setting which can be written as natural language or felt by many people's guts. 
