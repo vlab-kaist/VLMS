@@ -26,7 +26,7 @@ Despite the fact that this procedure will give the most logical solution(s) of t
 1. How to represent real world problems into the form of mathematical problem?
 2. How to solve the mathematical problem in an automatic manner?
 
-**Machine Learning** focuses on the second, and some of the first, to solve the real world problem in an automatic way, which we categorise it as the **Algorithm**. Now we might be able to try to find an answer with an algorithm but still we do not know the answer will exist or not. 
+**Machine Learning** focuses on the second, and some of the first, to solve the real world problem in an automatic way, which we categorize it as the **Algorithm**. Now we might be able to try to find an answer with an algorithm but still we do not know the answer will exist or not. 
 
 So, In this reason, we usually use optimisation techniques to solve the problem which can be iteratively updated by the massive amounts of computation which can be run on fastest consumer GPU which can do 8 x $10^{12}$ floating points operations in a single second.
 
