@@ -1,3 +1,7 @@
+---
+share: "true"
+title: Introduction
+---
 
 Before the start, everything we learn in a school in general is basically about **How** to solve a problem. But the most of the finest idea is actually come from the process of defining **What** is the problem. 
 
