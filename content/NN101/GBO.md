@@ -44,7 +44,7 @@ Assume that global minimum is a only local minimum, and $x'$ is a value that mak
 Then, slope of the function $f(x)$ indicates where minimum exists.
 
 - If slope $f'(x_0)$ is positive, it means $x' < x_0$.
-- If slope $f'(x_0)$ is positive, it means $x_0 < x'$.
+- If slope $f'(x_0)$ is negative, it means $x_0 < x'$.
 
 Therefore, whatever the value of $x_0$ is, $x_1 = x_0 - f'(x_0)$ will move value to the direction of $x'$.
 We can do this iteratively, and expect that sequence $\{x_n\}$ will be converge to $x'$.
